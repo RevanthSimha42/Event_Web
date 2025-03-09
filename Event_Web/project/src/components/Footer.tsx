@@ -7,8 +7,7 @@ import {
   Mail, 
   Phone, 
   MapPin, 
-  PartyPopper, 
-  Mailbox
+  PartyPopper 
 } from 'lucide-react';
 
 const Footer = () => {
@@ -19,8 +18,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center">
-              {/* <PartyPopper size={24} className="text-amber-400 mr-2" /> */}
-              <img src="../src/components/public/favicon-32x32.png" alt="logo" />
+              <PartyPopper size={24} className="text-amber-400 mr-2" />
               <h3 className="text-xl font-serif font-bold text-gradient-amber-pink">
                 Celebrating Life's Moments
               </h3>
@@ -29,7 +27,7 @@ const Footer = () => {
               Making every moment unforgettable with our premium event management and creative services.
             </p>
             <div className="flex space-x-4 pt-2">
-              {/* <a href="#" className="text-gray-300 hover-text-amber-400 transition-colors">
+              <a href="#" className="text-gray-300 hover-text-amber-400 transition-colors">
                 <Facebook size={20} />
               </a>
               <a href="#" className="text-gray-300 hover-text-amber-400 transition-colors">
@@ -37,12 +35,6 @@ const Footer = () => {
               </a>
               <a href="#" className="text-gray-300 hover-text-amber-400 transition-colors">
                 <Twitter size={20} />
-              </a> */}
-            <a
-							href="mailto:recipient@example.com?subject=Hello&body=This is my message."
-							aria-label="Gmail"
-						>
-							<Mail size={20} />
               </a>
             </div>
           </div>
@@ -88,15 +80,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin size={18} className="text-amber-400 mr-2 mt-1 flex-shrink-0" />
-                <span className="text-gray-300">Bharat Nagar, Kukatpally, Hyderabad, Telangana, India – 500018</span>
+                <span className="text-gray-300">123 Event Street, Celebration City, 10001</span>
               </li>
               <li className="flex items-center">
                 <Phone size={18} className="text-amber-400 mr-2 flex-shrink-0" />
-                <span className="text-gray-300">+91 77022 51024</span>
+                <span className="text-gray-300">+1 (555) 123-4567</span>
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="text-amber-400 mr-2 flex-shrink-0" />
-                <span className="text-gray-300"> adityasoftwaresolutions51@gmail.com</span>
+                <span className="text-gray-300">info@celebratingmoments.com</span>
               </li>
             </ul>
           </div>
