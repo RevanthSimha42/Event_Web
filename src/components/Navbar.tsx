@@ -65,10 +65,13 @@ const Navbar = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <img src="../src/components/public/favicon-32x32.png" alt="logo" />
-              <span className="font-serif font-bold text-xl md-text-2xl text-gradient-amber-pink">
-                Celebrating Life's Moments
-              </span>
+              <img 
+  src="../src/components/public/favicon-96x96.png" 
+  alt="logo" 
+/>
+              <h3 className="text-xl font-serif font-bold text-gradient-amber-pink">
+              Aditya Events
+              </h3>
             </motion.div>
           </Link>
 

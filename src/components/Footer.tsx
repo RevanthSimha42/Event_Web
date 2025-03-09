@@ -20,9 +20,13 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center">
               {/* <PartyPopper size={24} className="text-amber-400 mr-2" /> */}
-              <img src="../src/components/public/favicon-32x32.png" alt="logo" />
+              <img 
+  src="../src/components/public/favicon-96x96.png" 
+  alt="logo" 
+  style={{ marginRight: '10px' }} 
+/>
               <h3 className="text-xl font-serif font-bold text-gradient-amber-pink">
-                Celebrating Life's Moments
+              Aditya Events
               </h3>
             </div>
             <p className="text-gray-300 text-sm">
@@ -96,14 +100,14 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="text-amber-400 mr-2 flex-shrink-0" />
-                <span className="text-gray-300"> adityasoftwaresolutions51@gmail.com</span>
+                <span className="text-gray-300"> adityaevents47@gmail.com</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400 text-sm">
-          <p>© {new Date().getFullYear()} Celebrating Life's Moments. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Aditya Events. All rights reserved.</p>
         </div>
       </div>
     </footer>

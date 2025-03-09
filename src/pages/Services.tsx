@@ -165,9 +165,9 @@ const Services = () => {
                         {service.title}
                       </h2>
                       <p className="text-gray-600 mb-6">{service.description}</p>
-                      <button className="btn btn-primary hover-shadow-lg hover-scale-105">
+                      {/* <button className="btn btn-primary hover-shadow-lg hover-scale-105">
                         Learn More
-                      </button>
+                      </button> */}
                     </motion.div>
                   </div>
                 </motion.div>
